@@ -1,0 +1,48 @@
+/*GENERAL*/
+
+/* nav */
+
+#logo-gerboise {
+
+    max-width: 4rem;
+}
+
+.nav-replace{
+
+    padding-top: 17vh;
+
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.44);
+    height: 14vh;
+}
+
+nav a:hover {
+    opacity: 50%;
+}
+
+/* footer */
+footer {
+
+    background-color: #2D3728;
+    min-height: auto;
+    margin: 0px;
+    color: white;
+
+}
+
+
+
+/* index  */
+
+.carousel-item img {
+    max-height: 99vh;
+    margin: 0 auto;
+}
+
+.carousel-container {
+
+    margin-bottom: 50vh;
+    background-color: #3d72226e;
+}
+
