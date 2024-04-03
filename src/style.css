@@ -1,17 +1,20 @@
 /*GENERAL*/
 
+
 /* nav */
+
 
 #logo-gerboise {
 
     max-width: 4rem;
 }
 
-.nav-replace{
+.nav-replace {
 
     padding-top: 17vh;
 
 }
+
 nav {
     background-color: rgba(0, 0, 0, 0.44);
     height: 14vh;
@@ -28,7 +31,13 @@ footer {
     min-height: auto;
     margin: 0px;
     color: white;
+    
+}
 
+footer a {
+
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -46,3 +55,11 @@ footer {
     background-color: #3d72226e;
 }
 
+/* parcelle */
+
+#before-after {
+
+    background-color: #ebd5ab;
+}
+
+/* nos partenaires */
