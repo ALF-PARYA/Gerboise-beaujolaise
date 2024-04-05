@@ -46,32 +46,37 @@
             </div>
         </nav>
     </header>
-    <main class="container col-md-10 nav-replace">
-        <h1 class="text-center fst-italic">Vous souhaitez nous contactez ? <br>
+
+
+    <main class="container-fluid col-md-11 col-11 nav-replace">
+
+        <h1 class="text-center fst-italic">Vous souhaitez nous contacter ? <br>
             rien de plus simple ! </h1>
-        <div class="row ">
+
+
+        <div class="row bg-transparent rounded-5 shadow p-3 mb-5 bg-body-secondary mt-3">
             <h3>Par mail :</h3>
             <form action="" method="get">
-                <div class="d-flex justify-content-center">
-                    <div class="col-md-4 ">
-                        <label for="famillyname">Nom</label>
-                        <input type="text" id="famillyname">
+                <div class="d-flex justify-content-center flex-column flex-md-row align-items-center gap-4">
+                    <div class="col-md col-12 ">
+                        <label class="form-label" for="famillyname">Nom</label>
+                        <input class="form-control" type="text" id="famillyname">
                     </div>
-                    <div class="col-md-4 ">
-                        <label for="name">Nom</label>
-                        <input type="text" id="name">
+                    <div class="col-md col-12">
+                        <label class="form-label" for="name">Prénom</label>
+                        <input class="form-control" type="text" id="name">
                     </div>
                 </div>
-                <div>
-                    <label for="email">email</label>
-                    <input type="email" id="email">
+                <div class="pt-2">
+                    <label for="email">Email</label>
+                    <input class=" w-100 col-12 form-control form-text" type="email" id="email">
                 </div>
 
-                <div>
-                    <label for="message">text</label>
-                    <input type="text" id="message">
+                <div class="pt-2">
+                    <label class="p-2" for="message">Votre Message</label>
+                    <input type="text" class="w-100 form-control" id="message">
                 </div>
-                <button type="submit" class="btn btn-primary">valider</button>
+                <button type="submit" class="btn btn-primary col-md-2 col-12 float-end mt-4">valider</button>
             </form>
         </div>
 
@@ -83,8 +88,8 @@
             <p>69000 beaujeu</p>
         </div>
     </main>
-    
-    <footer class="d-flex justify-content-around align-items-center p-5">
+
+    <footer class="d-flex justify-content-around align-items-center p-5  flex-column flex-md-row align-items-center gap-4">
         <h3> <a href="/pages/legals/confidential.html">Mention légale</a></h3>
         <h3> <a href="/pages/legals/legal-mention.html">politique de confidentialité</a></h3>
     </footer>

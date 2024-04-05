@@ -31,7 +31,7 @@ footer {
     min-height: auto;
     margin: 0px;
     color: white;
-    
+
 }
 
 footer a {
@@ -58,8 +58,22 @@ footer a {
 /* parcelle */
 
 #before-after {
-
     background-color: #ebd5ab;
 }
 
+#before-after img {
+    border-radius: 5px;
+    max-width: 90%;
+    max-height: 90%;
+    
+} 
+
+
+
 /* nos partenaires */
+
+/* contact */
+
+#message {
+    height: 20vh;
+}
