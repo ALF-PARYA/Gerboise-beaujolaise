@@ -9,3 +9,10 @@ EN :
 This project is one of my very first ones, created at the beginning of my journey into web development. I intend to evolve it from a simple static site using the most basic tools to a complete PHP project with hosting
 
 ![LOGO](/assets/img/gerboise-logo.png)
+
+<h1>Bullet points</h1>
+
+- V1 Réalisation basique / Basic realization
+
+- V2 Ajout et utilisation de JS et PHP / ADDING JS and PHP
+
